@@ -1,27 +1,26 @@
-| State       | Year | Rainfall_mm |
-| ----------- | ---- | ----------- |
-| Bihar       | 2018 | 980         |
-| Bihar       | 2019 | 940         |
-| Bihar       | 2020 | 1020        |
-| Bihar       | 2021 | 960         |
-| Bihar       | 2022 | 910         |
-| Karnataka   | 2018 | 820         |
-| Karnataka   | 2019 | 870         |
-| Karnataka   | 2020 | 880         |
-| Karnataka   | 2021 | 860         |
-| Karnataka   | 2022 | 840         |
-| Maharashtra | 2018 | 880         |
-| Maharashtra | 2019 | 910         |
-| Maharashtra | 2020 | 940         |
-| Maharashtra | 2021 | 920         |
-| Maharashtra | 2022 | 890         |
-| Tamil Nadu  | 2018 | 760         |
-| Tamil Nadu  | 2019 | 810         |
-| Tamil Nadu  | 2020 | 780         |
-| Tamil Nadu  | 2021 | 790         |
-| Tamil Nadu  | 2022 | 770         |
-| Punjab      | 2018 | 650         |
-| Punjab      | 2019 | 700         |
-| Punjab      | 2020 | 720         |
-| Punjab      | 2021 | 710         |
-| Punjab      | 2022 | 680         |
+State	Year	Rainfall_mm
+Bihar	2018	980
+Bihar	2019	940
+Bihar	2020	1020
+Bihar	2021	960
+Bihar	2022	910
+Karnataka	2018	820
+Karnataka	2019	870
+Karnataka	2020	880
+Karnataka	2021	860
+Karnataka	2022	840
+Maharashtra	2018	880
+Maharashtra	2019	910
+Maharashtra	2020	940
+Maharashtra	2021	920
+Maharashtra	2022	890
+Tamil Nadu	2018	760
+Tamil Nadu	2019	810
+Tamil Nadu	2020	780
+Tamil Nadu	2021	790
+Tamil Nadu	2022	770
+Punjab	2018	650
+Punjab	2019	700
+Punjab	2020	720
+Punjab	2021	710
+Punjab	2022	680
