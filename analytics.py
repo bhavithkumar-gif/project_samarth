@@ -1,19 +1,19 @@
 import pandas as pd
 
 # ------------------ DATA LOADING FUNCTIONS ------------------
-def load_crop_df(path="crop_production_large.csv"):
+def load_crop_df(path="crop_production.csv"):
     try:
         df = pd.read_csv(path)
-        df.columns = [c.strip().lower() for c in df.columns]  # Normalize headers
+        df.columns = [c.strip().lower() for c in df.columns] 
         return df
     except Exception as e:
         print("Error loading crop data:", e)
         return None
 
-def load_rain_df(path="rainfall_large.csv"):
+def load_rain_df(path="rainfall.csv"):
     try:
         df = pd.read_csv(path)
-        df.columns = [c.strip().lower() for c in df.columns]  # Normalize headers
+        df.columns = [c.strip().lower() for c in df.columns]  
         return df
     except Exception as e:
         print("Error loading rainfall data:", e)
