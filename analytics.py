@@ -4,11 +4,15 @@ import pandas as pd
 def load_crop_df(path="crop_production.csv"):
     try:
         df = pd.read_csv(path)
-        df.columns = [c.strip().lower() for c in df.columns] 
+        df.columns = [c.strip().lower() for c in df.columns]
+        # Rename Production_Tonnes → production_tons
+        if "production_tonnes" in df.columns:
+            df = df.rename(columns={"production_tonnes": "production_tons"})
         return df
     except Exception as e:
         print("Error loading crop data:", e)
         return None
+
 
 def load_rain_df(path="rainfall.csv"):
     try:
