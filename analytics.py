@@ -1,13 +1,10 @@
 import pandas as pd
 
 # ------------------ DATA LOADING FUNCTIONS ------------------
-def load_crop_df(path="crop_production.csv"):
+def load_crop_df(path="crop_production_large.csv"):
     try:
         df = pd.read_csv(path)
-        df.columns = [c.strip().lower() for c in df.columns]
-        # Rename Production_Tonnes → production_tons
-        if "production_tonnes" in df.columns:
-            df = df.rename(columns={"production_tonnes": "production_tons"})
+        df.columns = [c.strip().lower() for c in df.columns]  
         return df
     except Exception as e:
         print("Error loading crop data:", e)
