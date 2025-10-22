@@ -1,7 +1,7 @@
 import pandas as pd
 
 # ------------------ DATA LOADING ------------------
-def load_crop_df(path="crop_production_large.csv"):
+def load_crop_df(path="crop_production.csv"):
     try:
         df = pd.read_csv(path)
         df.columns = [c.strip().lower() for c in df.columns]
