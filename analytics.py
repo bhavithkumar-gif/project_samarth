@@ -3,11 +3,13 @@ import pandas as pd
 from scipy.stats import pearsonr
 
 def load_crop_df(path):
+    import pandas as pd
     return pd.read_csv(path)
 
 def load_rain_df(path):
+    import pandas as pd
     return pd.read_csv(path)
-
+    
 def avg_annual_rainfall_for_state(rain_df, state, n_years):
     df = rain_df[rain_df['state'] == state]
     recent_years = sorted(df['year'].unique())[-n_years:]
