@@ -1,19 +1,18 @@
 import pandas as pd
 
-def load_crop_df(path):
-    try:
-        df = pd.read_csv(path)
-        df.columns = df.columns.str.strip()
-        return df
+def load_crop_df(path="crop_production_large.csv"):
+    df = pd.read_csv(path)
+    df.columns = [c.strip().lower() for c in df.columns] 
+    return df
     except Exception as e:
         print(f"Error loading crop CSV: {e}")
         return pd.DataFrame()
 
-def load_rain_df(path):
-    try:
-        df = pd.read_csv(path)
-        df.columns = df.columns.str.strip()
-        return df
+def load_rain_df(path="rainfall_large.csv"):
+    df = pd.read_csv(path)
+    df.columns = [c.strip().lower() for c in df.columns]  
+    return df
+
     except Exception as e:
         print(f"Error loading rain CSV: {e}")
         return pd.DataFrame()
