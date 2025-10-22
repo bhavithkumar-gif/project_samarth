@@ -1,37 +1,36 @@
-| State       | District   | Year | Crop      | Area_Hectares | production_tons |
-| ----------- | ---------- | ---- | --------- | ------------- | --------------- |
-| Bihar       | Patna      | 2018 | Rice      | 24000         | 56000           |
-| Bihar       | Gaya       | 2018 | Wheat     | 18000         | 49000           |
-| Bihar       | Patna      | 2019 | Rice      | 25000         | 58000           |
-| Bihar       | Gaya       | 2019 | Maize     | 16000         | 42000           |
-| Bihar       | Patna      | 2020 | Wheat     | 20000         | 52000           |
-| Bihar       | Gaya       | 2020 | Rice      | 23000         | 57000           |
-| Bihar       | Patna      | 2021 | Maize     | 19000         | 45000           |
-| Bihar       | Gaya       | 2022 | Rice      | 24000         | 59000           |
-| Karnataka   | Mysuru     | 2018 | Rice      | 27000         | 63000           |
-| Karnataka   | Mandya     | 2018 | Sugarcane | 22000         | 76000           |
-| Karnataka   | Mysuru     | 2019 | Wheat     | 21000         | 55000           |
-| Karnataka   | Mandya     | 2019 | Rice      | 26000         | 61000           |
-| Karnataka   | Mysuru     | 2020 | Maize     | 20000         | 53000           |
-| Karnataka   | Mandya     | 2021 | Sugarcane | 23000         | 78000           |
-| Karnataka   | Mysuru     | 2022 | Rice      | 25000         | 60000           |
-| Maharashtra | Pune       | 2018 | Sugarcane | 30000         | 88000           |
-| Maharashtra | Nashik     | 2018 | Wheat     | 25000         | 64000           |
-| Maharashtra | Pune       | 2019 | Rice      | 26000         | 67000           |
-| Maharashtra | Nashik     | 2019 | Maize     | 22000         | 59000           |
-| Maharashtra | Pune       | 2020 | Wheat     | 28000         | 71000           |
-| Maharashtra | Nashik     | 2021 | Rice      | 27000         | 70000           |
-| Maharashtra | Pune       | 2022 | Sugarcane | 31000         | 90000           |
-| Tamil Nadu  | Coimbatore | 2018 | Rice      | 23000         | 55000           |
-| Tamil Nadu  | Madurai    | 2018 | Sugarcane | 21000         | 72000           |
-| Tamil Nadu  | Coimbatore | 2019 | Maize     | 19000         | 47000           |
-| Tamil Nadu  | Madurai    | 2020 | Rice      | 22000         | 53000           |
-| Tamil Nadu  | Coimbatore | 2021 | Wheat     | 17000         | 45000           |
-| Tamil Nadu  | Madurai    | 2022 | Sugarcane | 24000         | 76000           |
-| Punjab      | Ludhiana   | 2018 | Wheat     | 29000         | 80000           |
-| Punjab      | Amritsar   | 2018 | Rice      | 27000         | 72000           |
-| Punjab      | Ludhiana   | 2019 | Maize     | 20000         | 54000           |
-| Punjab      | Amritsar   | 2019 | Wheat     | 30000         | 81000           |
-| Punjab      | Ludhiana   | 2020 | Rice      | 26000         | 71000           |
-| Punjab      | Amritsar   | 2021 | Wheat     | 31000         | 83000           |
-| Punjab      | Ludhiana   | 2022 | Maize     | 21000         | 56000           |
+State,District,Year,Crop,Area_Hectares,production_tons
+Bihar,Patna,2018,Rice,24000,56000
+Bihar,Gaya,2018,Wheat,18000,49000
+Bihar,Patna,2019,Rice,25000,58000
+Bihar,Gaya,2019,Maize,16000,42000
+Bihar,Patna,2020,Wheat,20000,52000
+Bihar,Gaya,2020,Rice,23000,57000
+Bihar,Patna,2021,Maize,19000,45000
+Bihar,Gaya,2022,Rice,24000,59000
+Karnataka,Mysuru,2018,Rice,27000,63000
+Karnataka,Mandya,2018,Sugarcane,22000,76000
+Karnataka,Mysuru,2019,Wheat,21000,55000
+Karnataka,Mandya,2019,Rice,26000,61000
+Karnataka,Mysuru,2020,Maize,20000,53000
+Karnataka,Mandya,2021,Sugarcane,23000,78000
+Karnataka,Mysuru,2022,Rice,25000,60000
+Maharashtra,Pune,2018,Sugarcane,30000,88000
+Maharashtra,Nashik,2018,Wheat,25000,64000
+Maharashtra,Pune,2019,Rice,26000,67000
+Maharashtra,Nashik,2019,Maize,22000,59000
+Maharashtra,Pune,2020,Wheat,28000,71000
+Maharashtra,Nashik,2021,Rice,27000,70000
+Maharashtra,Pune,2022,Sugarcane,31000,90000
+Tamil Nadu,Coimbatore,2018,Rice,23000,55000
+Tamil Nadu,Madurai,2018,Sugarcane,21000,72000
+Tamil Nadu,Coimbatore,2019,Maize,19000,47000
+Tamil Nadu,Madurai,2020,Rice,22000,53000
+Tamil Nadu,Coimbatore,2021,Wheat,17000,45000
+Tamil Nadu,Madurai,2022,Sugarcane,24000,76000
+Punjab,Ludhiana,2018,Wheat,29000,80000
+Punjab,Amritsar,2018,Rice,27000,72000
+Punjab,Ludhiana,2019,Maize,20000,54000
+Punjab,Amritsar,2019,Wheat,30000,81000
+Punjab,Ludhiana,2020,Rice,26000,71000
+Punjab,Amritsar,2021,Wheat,31000,83000
+Punjab,Ludhiana,2022,Maize,21000,56000
