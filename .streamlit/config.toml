@@ -1,5 +1,0 @@
-[global]
-pythonVersion = "3.10"
-
-[server]
-headless = true
