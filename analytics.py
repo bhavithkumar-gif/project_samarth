@@ -2,10 +2,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import io
 
-def load_crop_df(path="crop_production.csv"):
+def load_crop_df(path="sample_outputs/crop_production.csv"):
     return pd.read_csv(path)
 
-def load_rain_df(path="rainfall.csv"):
+def load_rain_df(path="sample_outputs/rainfall.csv"):
     return pd.read_csv(path)
 
 def answer_question(crop_df, rain_df, question):
